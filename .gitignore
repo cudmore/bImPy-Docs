@@ -1,0 +1,20 @@
+# ignore mkdocs
+docs/site
+site
+
+bImPy_env
+
+*.DS_Store
+.AppleDouble
+.DS_Store
+
+*.pyc
+__pycache__
+.pynb_checkpoints
+
+
+# this is the image we will save during video preview
+bimpy/interface/oneimage.tif
+
+# never copy canvas options, will always remake from scratch
+bimpy/interface/bCanvasApp_Options.json
